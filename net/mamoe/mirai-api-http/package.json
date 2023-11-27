@@ -1,16 +1,28 @@
 {
-    "type": "plugin-jar",
-    "defaultChannel": "stable",
-    "channels": {
-        "stable": [
-            "1.9.6",
-            "1.9.7",
-            "1.9.8",
-            "1.10.0"
-        ],
-        "stable-v2": [
-            "2.3.3",
-            "2.4.0"
-        ]
-    }
+  "type": "plugin-jar",
+  "defaultChannel": "stable-v2",
+  "channels": {
+    "stable": [
+      "1.9.6",
+      "1.9.7",
+      "1.9.8",
+      "1.10.0"
+    ],
+    "stable-v2": [
+      "2.3.3",
+      "2.4.0",
+      "2.5.0",
+      "2.5.1",
+      "2.5.2",
+      "2.6.0",
+      "2.6.1",
+      "2.6.2",
+      "2.8.0",
+      "2.9.1",
+      "2.10.0"
+    ]
+  },
+  "name": "Mirai HTTP API",
+  "description": "提供HTTP API供所有语言使用mirai",
+  "website": "https://github.com/project-mirai/mirai-api-http"
 }

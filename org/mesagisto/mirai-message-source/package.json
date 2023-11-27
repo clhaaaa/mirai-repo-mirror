@@ -1,0 +1,21 @@
+{
+  "type": "plugin-jar",
+  "defaultChannel": "latest",
+  "name": "Mesagisto-Mirai",
+  "description": "致力于通过消息转发连接不同的即时通讯平台。",
+  "website": "https://github.com/MeowCat-Studio/mesagisto",
+  "logo": "https://avatars.githubusercontent.com/u/88523808?s=400&v=4",
+  "readme": "https://raw.githubusercontent.com/MeowCat-Studio/mesagisto/master/README.zh-CN.md",
+  "channels": {
+    "latest": [
+      "latest"
+    ]
+  },
+  "repo": {
+    "latest": {
+      "archive": "https://ghproxy.com/github.com/Mesagisto/mirai-message-source/releases/download/latest/mirai-message-source-latest.mirai2.jar",
+      "sha1": "https://ghproxy.com/github.com/Mesagisto/mirai-message-source/releases/download/latest/mirai-message-source-latest.mirai2.jar.sha1",
+      "metadata": "https://ghproxy.com/github.com/Mesagisto/mirai-message-source/releases/download/latest/mirai-message-source-latest.mirai.metadata"
+    }
+  }
+}

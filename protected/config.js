@@ -1,7 +1,7 @@
 module.exports = {
     protectedDomains: [
         'net.mamoe',
-        'org.itxitech',
+        'org.itxtech',
         'org.bouncycastle',
         'protected',
         'tmp',
@@ -12,5 +12,9 @@ module.exports = {
         'io.github.karlatemp': ['Karlatemp'],
         'xyz.cssxsh': ['cssxsh'],
         'io.github.gnuf0rce': ['cssxsh'],
+        'io.github.argonariod': ['ArgonarioD'],
+        'com.hcyacg': ['Nekoer'],
+        'org.mesagisto': ['MesagistoBot'],
+        'work.blackbe': ['BlackBEBot'],
     },
 };

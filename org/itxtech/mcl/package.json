@@ -1,27 +1,65 @@
 {
-    "type": "core",
-    "defaultChannel": "stable",
-    "announcement": "Mirai Console Loader 公告栏\n\n如果在图片上传的时候遇到问题请与我们联系 (需要提供图片文件源本)\n`- 如 Unsupported image type for ExternalResource *\n`  considering use gif/png/bmp/jpg format.\n`- Tracker: https://github.com/mamoe/mirai/issues/new/choose\n\n常用资源整合\n`- https://mirai.mamoe.net/topic/653\n",
-    "channels": {
-        "stable": [
-            "1.0.5",
-            "1.1.0",
-            "1.2.1",
-            "1.2.2"
-        ]
+  "name": "Mirai Console Loader",
+  "description": "模块化、轻量级且支持完全自定义的 mirai 加载器",
+  "website": "https://github.com/iTXTech/mirai-console-loader",
+  "forum": "https://mirai.mamoe.net/topic/177",
+  "logo": "https://avatars.githubusercontent.com/u/15979485?s=200&v=4",
+  "readme": "https://raw.githubusercontent.com/iTXTech/mirai-console-loader/master/README.md",
+  "type": "core",
+  "defaultChannel": "stable",
+  "announcement": "Mirai Console Loader 公告栏\n\n如果在图片上传的时候遇到问题请与我们联系 (需要提供图片文件源本)\n`- 如 Unsupported image type for ExternalResource *\n`  considering use gif/png/bmp/jpg format.\n`- Tracker: https://github.com/mamoe/mirai/issues/new/choose\n\n常用资源整合\n`- https://mirai.mamoe.net/topic/653\n \nMCL 已推出 2.1.0，更好的支持 Mirai 2.11 的插件系统，建议更新。\n",
+  "channels": {
+    "stable": [
+      "1.0.5",
+      "1.1.0",
+      "1.2.1",
+      "1.2.2",
+      "1.2.3",
+      "2.0.0-beta.1",
+      "2.0.0-beta.2",
+      "2.0.0-beta.3",
+      "2.0.0",
+      "2.0.1",
+      "2.1.0",
+      "2.1.2"
+    ]
+  },
+  "repo": {
+    "1.0.5": {
+      "archive": "https://github.com/iTXTech/mirai-console-loader/releases/download/v1.0.5/mcl-1.0.5.zip"
     },
-    "repo": {
-        "1.0.5": {
-            "archive": "https://github.com/iTXTech/mirai-console-loader/releases/download/v1.0.5/mcl-1.0.5.zip"
-        },
-        "1.1.0": {
-            "archive": "https://github.com/iTXTech/mirai-console-loader/releases/download/v1.1.0/mcl-1.1.0.zip"
-        },
-        "1.2.1": {
-            "archive": "https://github.com/iTXTech/mirai-console-loader/releases/download/v1.2.1/mcl-1.2.1.zip"
-        },
-        "1.2.2": {
-            "archive": "https://github.com/iTXTech/mirai-console-loader/releases/download/v1.2.2/mcl-1.2.2.zip"
-        }
+    "1.1.0": {
+      "archive": "https://github.com/iTXTech/mirai-console-loader/releases/download/v1.1.0/mcl-1.1.0.zip"
+    },
+    "1.2.1": {
+      "archive": "https://github.com/iTXTech/mirai-console-loader/releases/download/v1.2.1/mcl-1.2.1.zip"
+    },
+    "1.2.2": {
+      "archive": "https://github.com/iTXTech/mirai-console-loader/releases/download/v1.2.2/mcl-1.2.2.zip"
+    },
+    "1.2.3": {
+      "archive": "https://maven.aliyun.com/repository/public/org/itxtech/mirai-console-loader/1.2.3/mirai-console-loader-1.2.3.zip"
+    },
+    "2.0.0-beta.1": {
+      "archive": "https://maven.aliyun.com/repository/public/org/itxtech/mcl/2.0.0-beta.1/mcl-2.0.0-beta.1.zip"
+    },
+    "2.0.0-beta.2": {
+      "archive": "https://maven.aliyun.com/repository/public/org/itxtech/mcl/2.0.0-beta.2/mcl-2.0.0-beta.2.zip"
+    },
+    "2.0.0-beta.3": {
+      "archive": "https://maven.aliyun.com/repository/public/org/itxtech/mcl/2.0.0-beta.3/mcl-2.0.0-beta.3.zip"
+    },
+    "2.0.0": {
+      "archive": "https://maven.aliyun.com/repository/public/org/itxtech/mcl/2.0.0/mcl-2.0.0.zip"
+    },
+    "2.0.1": {
+      "archive": "https://maven.aliyun.com/repository/public/org/itxtech/mcl/2.0.1/mcl-2.0.1.zip"
+    },
+    "2.1.0": {
+      "archive": "https://maven.aliyun.com/repository/public/org/itxtech/mcl/2.1.0/mcl-2.1.0.zip"
+    },
+    "2.1.2": {
+      "archive": "https://maven.aliyun.com/repository/public/org/itxtech/mcl/2.1.2/mcl-2.1.2.zip"
     }
+  }
 }
